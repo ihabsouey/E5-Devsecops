@@ -1,11 +1,11 @@
 # [React MUI Introduction](https://blog.appseed.us/mui-react-coding-landing-page/)
 
-Sample Code for the blog article [React MUI Components - Learn by Coding](https://blog.appseed.us/mui-react-coding-landing-page/) - Provided by `AppSeed`.
+Sample Code for the blog article [React MUI Components - Learn by Coding](https://blog.appseed.us/mui-react-coding-landing-page/) - Provided by **[App-Generator](https://app-generator.dev/)**.
 
 The article explains how to use the MUI library in React.js by building a responsive website. The website will be built with MUI components only, no HTML element will be used.
 
 - 👉 [React MUI Landing Page](https://react-mui-landing-page.appseed-srv1.com/) - LIVE Demo
-- 👉 [React Apps](https://appseed.us/apps/react) - index provided by `AppSeed`
+- 👉 [React Apps](https://app-generator.dev/product/?search=react) - index provided by **[App-Generator](https://app-generator.dev/)**
 
 <br />
 
@@ -33,7 +33,7 @@ The article explains how to use the MUI library in React.js by building a respon
 
 <br />
 
-## What is React.js
+## [Getting Started with React](https://app-generator.dev/docs/technologies/react/index.html)
 
 React.js is a JavaScript library that allows you to build fast and efficient web applications using the minimum amount of code possible. In React.js, you can break the web layout into components - reusable bits of code that return HTML elements. 
 
@@ -81,4 +81,4 @@ This Free MUI Dashboard is coming with prebuilt design blocks, so the developmen
 <br />
 
 --- 
-[React MUI Introduction](https://blog.appseed.us/mui-react-coding-landing-page/) - provided by [AppSeed](https://appseed.us/) 
+[React MUI Introduction](https://blog.appseed.us/mui-react-coding-landing-page/) - provided by **[App-Generator](https://app-generator.dev/)**. 

@@ -175,17 +175,21 @@ Angular App est une application simple de portfolio développée avec Angular. E
 ```bash
 docker-compose up -d --build
 ```
+<img width="800" height="600" alt="Build et lancement Angular App" src="https://github.com/ihabsouey/E5-Devsecops/blob/angular-app/src/assets/image/docker-image.png" />
 
 **2. Accès à l’application**
 
 Ouvrir le navigateur à l’adresse :
 http://localhost:4200
 
+<img width="800" height="600" alt="Build et lancement Angular App" src="https://github.com/ihabsouey/E5-Devsecops/blob/angular-app/src/assets/image/angular-app.png" />
+
 **3. Publication sur Docker Hub (optionnel)**
 ```bash
 docker tag angular-app:latest sadekomrane/angular-app
 # docker push sadekomrane/angular-app
 ```
+<img width="800" height="600" alt="Build et lancement Angular App" src="https://github.com/ihabsouey/E5-Devsecops/blob/angular-app/src/assets/image/docker-hub.png" />
 
 ---
 

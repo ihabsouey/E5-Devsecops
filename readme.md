@@ -133,6 +133,31 @@ docker push alatrojette/appstripe
 
 <img width="800"  height="600" alt="6" src="https://github.com/user-attachments/assets/cdf47e23-c469-46d0-94aa-36e5abb9d1aa" />
 
+## 10. Application 4 – Angular App
+**Description**
+
+Angular App est une application simple de portfolio développée avec Angular. Elle présente les compétences, expériences et projets de l'utilisateur dans une interface moderne et responsive.
+
+**Étapes réalisées**
+
+**1. Build et lancement de l’application avec Docker Compose**
+```bash
+docker-compose up -d --build
+```
+
+**2. Accès à l’application**
+
+Ouvrir le navigateur à l’adresse :
+http://localhost:4200
+
+**3. Publication sur Docker Hub (optionnel)**
+```bash
+docker tag angular-app:latest sadekomrane/angular-app
+# docker push sadekomrane/angular-app
+```
+
+---
+
 
 
 

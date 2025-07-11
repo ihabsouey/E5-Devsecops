@@ -1,64 +1,55 @@
-# Projet E5 DevSecOps - Docker - ESTIAM Paris
+# [kevinflor.es](https://kevinflor.es)
 
-## Nom & Prénom :
 
-**Ihab Souey**
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./preview-dark.png">
+  <source media="(prefers-color-scheme: light)" srcset="./preview.png">
+  <img alt="Website preview" src="./preview.png">
+</picture>
 
----
+## Stack
+- **Framework**: [Angular](https://angular.dev/)
+- **Styling**: [Tailwind CSS](https://tailwindcss.com/)
+- **Deployment**: [AWS S3](https://aws.amazon.com/s3/)
 
----
+## Features 📋
+⚡️ Navbar Glassmorphism\
+⚡️ Toolbar Color Theme Selector\
+⚡️ Light and Dark Mode\
+⚡️ Spotlight Glow Hover Card\
+⚡️ Devicon with Tooltip\
+⚡️ Spotify Music API\
+⚡️ Trakt Watch API
 
-## 1. Présentation du projet
+## Sections 📚
+✔️ Intro Image\
+✔️ Expertise Area\
+✔️ Languages and Tools\
+✔️ In my work\
+✔️ About\
+✔️ Projects\
+✔️ Uses
 
-Dans ce projet, nous jouons le rôle d’un ingénieur DevSecOps chargé de déployer 4 applications (dont une statique et une avec Stripe) dans un environnement de développement à l’aide de Docker, avec reverse proxy et publication sur Docker Hub.
 
----
+## Running Locally
 
-## 2. Liste des applications déployées
-
-- **Application 1** : Dashboard React
-- **Application 2** :
-- **Application 3** :
-- **Application 4** :
-
----
-
-## 3. Choix des technologies
-
-- **Docker & Docker Compose** : orchestration des containers
-- **Nginx** : reverse proxy
-- **Node.js** : backend API
-- **React** : frontend dynamique
-- **Stripe API** : passerelle de paiement
-- **GitHub** : gestion de versions
-- **Docker Hub** : hébergement des images
-
----
-
-## 4. Fichier `docker-compose.yml`
-
-Fichier unique pour toute la stack, avec reverse proxy, volumes et ports. (Extrait ou capture à insérer ici)
-
----
-
-## 5. Reverse Proxy
-
-- Configuration de Nginx dans un container dédié
-- Redirection vers les applications sauf une exposée directement pour tests whitebox
-
----
-
-## 6. Dockerfiles
-
-Dockerfiles optimisés pour chaque application. Utilisation de multi-stage builds pour réduire la taille des images.
-
----
-
-## 7. Publication sur Docker Hub
-
-Application react : images publiées sur mon compte Docker Hub :
+This application requires Node.js v18.13+.
 
 ```bash
-docker tag myapp ihabsouey/react-sample
-docker push ihabsouey/react-sample
+npm install -g @angular/cli
+git clone https://github.com/marckevinflores/kevinflor.es.git
+cd kevinflor.es
+npm install
 ```
+
+Before starting the application, you need to rename the files inside the `src/environments` directory. Remove the `.bak` file extension from `environment.ts.bak` and `environment.development.ts.bak`. Then run:
+```bash
+ npm start
+```
+
+Wait to compile and go to http://localhost:4200 after compile finish
+
+
+## Previous versions
+
+my previous versions of this website can be found at [marckevinflores/prev-websites](https://github.com/marckevinflores/prev-websites)

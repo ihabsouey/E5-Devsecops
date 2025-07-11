@@ -1,9 +1,7 @@
-import React from 'react';
 import { Box, Typography, Link } from '@mui/material';
 import useStyles from '../styles/styles';
 
 const Footer = () => {
-  const date = new Date().getFullYear();
   const classes = useStyles();
 
   return (

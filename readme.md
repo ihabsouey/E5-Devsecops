@@ -82,7 +82,7 @@ docker push rturki270/netflix-app
 Le code source de cette application a été isolé dans le dossier /html-app situé dans la branche html-app du dépôt.
 Cela permet de séparer proprement la documentation (branche main) et le code exécutable.
 
-📸 Captures d’écran
+
 <img width="800"  height="600" alt="Sizeapresloptimisation" src="https://github.com/user-attachments/assets/bb693ce5-8a4b-48ba-8af2-feca71ef6a77" />
 <img width="800"  height="600" alt="sizeavantoptimisation" src="https://github.com/user-attachments/assets/aa82af75-d212-4546-a7f6-29bc2f8a2004" />
 <img width="800"  height="600" alt="dockerhub" src="https://github.com/user-attachments/assets/b3915b8a-845a-420d-85a1-7777d2b4e9b6" />

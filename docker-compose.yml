@@ -1,0 +1,58 @@
+version: '3.8'
+
+services:
+  react-app:
+    build: ./react-app
+    container_name: react-app
+    restart: unless-stopped
+    expose:
+      - "80"
+    networks:
+      - web-network
+
+  html-app:
+    build: ./html-app
+    container_name: html-app
+    restart: unless-stopped
+    expose:
+      - "80"
+    networks:
+      - web-network
+
+  angular-app:
+    build: ./angular-app
+    container_name: angular-app
+    restart: unless-stopped
+    expose:
+      - "4200"
+    networks:
+      - web-network
+
+  appstripe:
+    build: ./appstripe
+    container_name: appstripe
+    restart: unless-stopped
+    expose:
+      - "5085"
+    networks:
+      - web-network
+
+  nginx:
+    image: nginx:alpine
+    container_name: nginx
+    restart: unless-stopped
+    ports:
+      - "80:80"
+    volumes:
+      - ./nginx/nginx.conf:/etc/nginx/nginx.conf
+    depends_on:
+      - react-app
+      - html-app
+      - angular-app
+      - appstripe
+    networks:
+      - web-network
+
+networks:
+  web-network:
+    driver: bridge

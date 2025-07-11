@@ -1,0 +1,13 @@
+services:
+  react-app:
+    image: ihabsouey/react-sample
+    container_name: react-sample
+    ports:
+      - "3000:80"
+    restart: unless-stopped
+    networks:
+      - app-network
+
+networks:
+  app-network:
+    driver: bridge

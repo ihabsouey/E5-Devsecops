@@ -22,10 +22,10 @@ Dans ce projet, nous jouons le rôle d’un ingénieur DevSecOps chargé de dép
 
 ## 2. Liste des applications déployées
 
-- **Application 1** : Dashboard React
-- **Application 2** : page html netflix
-- **Application 3** : site stripe avec django
-- **Application 4** :
+- **Application 1** : Dashboard React (ihab)
+- **Application 2** : page html netflix (ranim)
+- **Application 3** : site stripe avec django (Ala)
+- **Application 4** : angular project (Sadek)
 
 ---
 

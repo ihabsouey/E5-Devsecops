@@ -1,8 +1,9 @@
-# Projet E5 DevSecOps - Docker - ESTIAM Paris
+<img width="1878" height="724" alt="dockerhub" src="https://github.com/user-attachments/assets/74d88112-e5b0-47f4-b56a-780678fde5db" /># Projet E5 DevSecOps - Docker - ESTIAM Paris
 
 ## Nom & Prénom :
 
 **Ihab Souey**
+**turki ranim**
 
 ---
 
@@ -17,7 +18,7 @@ Dans ce projet, nous jouons le rôle d’un ingénieur DevSecOps chargé de dép
 ## 2. Liste des applications déployées
 
 - **Application 1** : Dashboard React
-- **Application 2** :
+- **Application 2** : page html netflix
 - **Application 3** :
 - **Application 4** :
 
@@ -62,3 +63,30 @@ Application react : images publiées sur mon compte Docker Hub :
 docker tag myapp ihabsouey/react-sample
 docker push ihabsouey/react-sample
 ```
+
+8. Application HTML statique – Netflix Mobile Navigation 
+📝 Description
+Cette application représente une interface mobile inspirée de Netflix, développée en HTML, CSS et JavaScript.
+Elle a été conteneurisée à l’aide de Docker avec Nginx pour la servir, puis poussée sur Docker Hub dans une branche dédiée html-app.
+
+⚙️ Commandes Docker utilisées
+bash
+Copier
+Modifier
+docker build -t netflix-app .
+docker-compose up --build
+docker login
+docker tag netflix-app rturki270/netflix-app
+docker push rturki270/netflix-app
+🗂 Organisation du code
+Le code source de cette application a été isolé dans le dossier /html-app situé dans la branche html-app du dépôt.
+Cela permet de séparer proprement la documentation (branche main) et le code exécutable.
+
+📸 Captures d’écran
+<img width="1243" height="664" alt="Sizeapresloptimisation" src="https://github.com/user-attachments/assets/bb693ce5-8a4b-48ba-8af2-feca71ef6a77" />
+<img width="1242" height="658" alt="sizeavantoptimisation" src="https://github.com/user-attachments/assets/aa82af75-d212-4546-a7f6-29bc2f8a2004" />
+<img width="1878" height="724" alt="dockerhub" src="https://github.com/user-attachments/assets/b3915b8a-845a-420d-85a1-7777d2b4e9b6" />
+
+
+
+

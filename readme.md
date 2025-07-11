@@ -60,14 +60,45 @@ Dockerfiles optimisés pour chaque application. Utilisation de multi-stage build
 
 ---
 
-## 7. Publication sur Docker Hub
+## 7. Application React
 
-Application react : images publiées sur mon compte Docker Hub :
+**Description**
+
+Application react :
+L'application React a été réalisée en utilisant la bibliothèque MUI (Material UI) pour créer une landing page simple et responsive. La page est entièrement construite avec les composants MUI, sans utiliser d’éléments HTML natifs.
+
+**Étapes réalisées**
+
+**1. Créer un Dockerfile optimisé et le fichier .dockerignore**
+**2. Construire l'image localement**
+
+
+```bash
+docker build -t ihabsouey/react-sample .
+```
+<img width="1517" height="558" alt="image" src="https://github.com/user-attachments/assets/40500cb9-67e0-423c-a42c-44b7e576e661" />
+<img width="1574" height="419" alt="image" src="https://github.com/user-attachments/assets/36dfb6f2-f5bb-4383-adeb-d886a070a441" />
+
+**3. Tester localement**
+
+```bash
+docker run -p 3000:80 ihabsouey/react-sample
+```
+<img width="1810" height="962" alt="image" src="https://github.com/user-attachments/assets/5285b966-b727-4743-a3f5-f08951a5634a" />
+
+**4. Pousser l'image sur Docker Hub**
+
+```bash
+docker login
+docker push ihabsouey/react-sample
+```
+<img width="1201" height="738" alt="image" src="https://github.com/user-attachments/assets/a719630d-ae3b-44c2-94f2-7cb431897ecb" />
 
 ```bash
 docker tag myapp ihabsouey/react-sample
 docker push ihabsouey/react-sample
 ```
+
 
 ## 8. Application HTML statique – Netflix Mobile Navigation 
 📝 Description
